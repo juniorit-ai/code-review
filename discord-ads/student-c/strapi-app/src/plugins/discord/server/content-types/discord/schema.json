@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discords",
+  "info": {
+    "singularName": "discord",
+    "pluralName": "discords",
+    "displayName": "Discord"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+
+    "content-type-builder":{
+      "visible": true
+    }
+  },
+  "attributes": {
+    "invitationLink": {
+      "type": "string",
+      "required": true
+    },
+    "isUsed": {
+      "type": "boolean",
+      "default": false
+    },
+    "isInvited": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invites",
+  "info": {
+    "name": "invite"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invitations",
+  "info": {
+    "singularName": "invitation",
+    "pluralName": "invitations",
+    "displayName": "Invitation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "isUsed": {
+      "type": "boolean",
+      "default": false
+    },
+    "isInvited": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
